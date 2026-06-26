@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "occe_ender_cable:block/ender_cable"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "opencomputers:cable"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "CEC",
+    "RCR"
+  ],
+  "result": {
+    "count": 8,
+    "item": "occe_ender_cable:ender_cable"
+  },
+  "show_notification": true
+}

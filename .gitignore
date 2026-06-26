@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+run-server/
+out/
+*.launch
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+.DS_Store
