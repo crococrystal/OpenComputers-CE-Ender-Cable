@@ -1,4 +1,6 @@
 {
   "block.occe_ender_cable.ender_cable": "OC Труба",
+  "item.occe_ender_cable.network_visualizer": "Визуализатор OC-сети",
+  "item.occe_ender_cable.network_visualizer.tooltip": "Возьми в руку, чтобы увидеть рядом узлы и соединения сети OpenComputers.",
   "itemGroup.occe_ender_cable.main": "OpenComputers CE: OC Труба"
 }

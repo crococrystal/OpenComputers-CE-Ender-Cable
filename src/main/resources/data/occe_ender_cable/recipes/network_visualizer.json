@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "opencomputers:analyzer"
+    },
+    "C": {
+      "item": "occe_ender_cable:ender_cable"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " A ",
+    "GCG",
+    " R "
+  ],
+  "result": {
+    "item": "occe_ender_cable:network_visualizer"
+  },
+  "show_notification": true
+}

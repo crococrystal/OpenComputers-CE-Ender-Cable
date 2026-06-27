@@ -1,4 +1,6 @@
 {
   "block.occe_ender_cable.ender_cable": "OC Conduit",
+  "item.occe_ender_cable.network_visualizer": "OC Network Visualizer",
+  "item.occe_ender_cable.network_visualizer.tooltip": "Hold to reveal nearby OpenComputers network nodes and links.",
   "itemGroup.occe_ender_cable.main": "OpenComputers CE: OC Conduit"
 }

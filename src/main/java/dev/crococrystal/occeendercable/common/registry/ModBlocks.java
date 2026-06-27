@@ -2,6 +2,7 @@ package dev.crococrystal.occeendercable.common.registry;
 
 import dev.crococrystal.occeendercable.EnderCableMod;
 import dev.crococrystal.occeendercable.common.block.EnderCableBlock;
+import dev.crococrystal.occeendercable.common.item.NetworkVisualizerItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -27,6 +28,9 @@ public final class ModBlocks {
 
     public static final RegistryObject<Item> ENDER_CABLE_ITEM = ITEMS.register("ender_cable", () ->
         new BlockItem(ENDER_CABLE.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> NETWORK_VISUALIZER = ITEMS.register("network_visualizer", () ->
+        new NetworkVisualizerItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);

@@ -23,7 +23,10 @@ public final class ModCreativeTabs {
     public static final RegistryObject<CreativeModeTab> MAIN = TABS.register("main", () -> CreativeModeTab.builder()
         .title(Component.translatable("itemGroup." + EnderCableMod.MOD_ID + ".main"))
         .icon(() -> new ItemStack(ModBlocks.ENDER_CABLE_ITEM.get()))
-        .displayItems((parameters, output) -> output.accept(ModBlocks.ENDER_CABLE_ITEM.get()))
+        .displayItems((parameters, output) -> {
+            output.accept(ModBlocks.ENDER_CABLE_ITEM.get());
+            output.accept(ModBlocks.NETWORK_VISUALIZER.get());
+        })
         .build());
 
     public static void register(IEventBus bus) {

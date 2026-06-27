@@ -1,7 +1,11 @@
 {
-  "variants": {
-    "": {
-      "model": "occe_ender_cable:block/ender_cable"
-    }
-  }
+  "multipart": [
+    { "apply": { "model": "occe_ender_cable:block/ender_cable_core" } },
+    { "when": { "east": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_horizontal" } },
+    { "when": { "south": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_horizontal", "y": 90 } },
+    { "when": { "west": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_horizontal", "y": 180 } },
+    { "when": { "north": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_horizontal", "y": 270 } },
+    { "when": { "up": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_up" } },
+    { "when": { "down": "true" }, "apply": { "model": "occe_ender_cable:block/ender_cable_arm_down" } }
+  ]
 }

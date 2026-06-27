@@ -17,12 +17,13 @@ This repository starts with a minimal Forge 1.20.1 implementation:
 - `occe_ender_cable:ender_cable`
 - OpenComputers CE `Environment` and `SidedEnvironment` capability support
 - basic network joining and persistence
+- dynamic six-sided connection blockstates for adjacent OpenComputers network nodes
 - standalone cable block and item model
 - animated old OpenComputers conduit-inspired textures
+- handheld OpenComputers network visualizer overlay for loaded nearby nodes
 
 Planned follow-up work:
 
-- cable connection model improvements
 - facade support
 - optional Ender IO facade compatibility
 - optional Applied Energistics 2 facade compatibility

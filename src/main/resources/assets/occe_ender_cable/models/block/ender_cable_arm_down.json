@@ -1,0 +1,20 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "cable": "occe_ender_cable:block/ender_cable",
+    "particle": "occe_ender_cable:block/ender_cable"
+  },
+  "elements": [
+    {
+      "from": [6.5, 0, 6.5],
+      "to": [9.5, 9.5, 9.5],
+      "faces": {
+        "down": { "uv": [6.5, 6.5, 9.5, 9.5], "texture": "#cable" },
+        "north": { "uv": [0, 0, 3, 9.5], "texture": "#cable" },
+        "south": { "uv": [0, 0, 3, 9.5], "texture": "#cable" },
+        "west": { "uv": [0, 0, 3, 9.5], "texture": "#cable" },
+        "east": { "uv": [0, 0, 3, 9.5], "texture": "#cable" }
+      }
+    }
+  ]
+}
