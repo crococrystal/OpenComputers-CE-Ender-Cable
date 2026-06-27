@@ -1,4 +1,4 @@
 {
-  "block.occe_ender_cable.ender_cable": "OC Ender Cable",
-  "itemGroup.occe_ender_cable.main": "OpenComputers CE: Ender Cable"
+  "block.occe_ender_cable.ender_cable": "OC Conduit",
+  "itemGroup.occe_ender_cable.main": "OpenComputers CE: OC Conduit"
 }
