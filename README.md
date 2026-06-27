@@ -18,7 +18,7 @@ This repository starts with a minimal Forge 1.20.1 implementation:
 - OpenComputers CE `Environment` and `SidedEnvironment` capability support
 - basic network joining and persistence
 - standalone cable block and item model
-- old OpenComputers conduit-inspired textures
+- animated old OpenComputers conduit-inspired textures
 
 Planned follow-up work:
 
