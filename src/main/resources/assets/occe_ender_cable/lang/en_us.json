@@ -1,5 +1,7 @@
 {
   "block.occe_ender_cable.ender_cable": "OC Conduit",
+  "block.occe_ender_cable.radar": "Radar",
+  "block.occe_ender_cable.chat_box": "Chat Box",
   "item.occe_ender_cable.network_visualizer": "OC Network Visualizer",
   "item.occe_ender_cable.network_visualizer.tooltip": "Hold to reveal nearby OpenComputers network nodes and links.",
   "itemGroup.occe_ender_cable.main": "OpenComputers CE: OC Conduit"

@@ -2,6 +2,9 @@ package dev.crococrystal.occeendercable;
 
 import dev.crococrystal.occeendercable.common.registry.ModBlockEntities;
 import dev.crococrystal.occeendercable.common.registry.ModBlocks;
+import dev.crococrystal.occeendercable.common.registry.ModCreativeTabContents;
+import dev.crococrystal.occeendercable.common.util.ModChatEvents;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -14,5 +17,7 @@ public final class EnderCableMod {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.register(bus);
         ModBlockEntities.register(bus);
+        ModCreativeTabContents.register(bus);
+        MinecraftForge.EVENT_BUS.addListener(ModChatEvents::onServerChat);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "occe_ender_cable:ender_cable",
+    "occe_ender_cable:radar",
+    "occe_ender_cable:chat_box"
+  ]
+}

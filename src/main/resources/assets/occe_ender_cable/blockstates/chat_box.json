@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "occe_ender_cable:block/chat_box"
+    }
+  }
+}

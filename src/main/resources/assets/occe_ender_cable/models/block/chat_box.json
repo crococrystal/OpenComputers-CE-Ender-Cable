@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "occe_ender_cable:block/computronics/chatbox_side",
+    "top": "occe_ender_cable:block/computronics/noteblock",
+    "bottom": "occe_ender_cable:block/computronics/machine_bottom",
+    "side": "occe_ender_cable:block/computronics/chatbox_side"
+  }
+}

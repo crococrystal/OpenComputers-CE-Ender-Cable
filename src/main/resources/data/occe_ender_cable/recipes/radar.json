@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "opencomputers:analyzer"
+    },
+    "C": {
+      "item": "occe_ender_cable:ender_cable"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "EAE",
+    " C "
+  ],
+  "result": {
+    "item": "occe_ender_cable:radar"
+  },
+  "show_notification": true
+}
